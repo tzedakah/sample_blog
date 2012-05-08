@@ -1,0 +1,7 @@
+THIS IS AN EXAMPLE OF A PADRINO APPLICATION
+
+For this sample application, we will use the ActiveRecord ORM, the Haml templating language, the Shoulda testing framework and the jQuery JavaScript library. With that in mind, let us generate our new project:
+
+$ padrino g project sample_blog -t shoulda -e haml -c sass -s jquery -d activerecord -b
+
+This command will generate our basic Padrino project and the print out a nice report of the files generated. The output of this generation command can be viewed in this gist file. Notice the -b flag in the previous command which automatically instructs bundler to install all dependencies. All we need to do now is cd into our brand new application.
